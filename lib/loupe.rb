@@ -1,6 +1,6 @@
 require "loupe/version"
+require 'loupe/cli'
+require "loupe/dependency"
 
 module Loupe
-  class Error < StandardError; end
-  # Your code goes here...
 end

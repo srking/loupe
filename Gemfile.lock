@@ -2,11 +2,22 @@ PATH
   remote: .
   specs:
     loupe (0.1.0)
+      octokit
+      thor
 
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     diff-lcs (1.4.4)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
+    multipart-post (2.1.1)
+    octokit (4.18.0)
+      faraday (>= 0.9)
+      sawyer (~> 0.8.0, >= 0.5.3)
+    public_suffix (4.0.5)
     rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -21,6 +32,10 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
+    thor (1.0.1)
 
 PLATFORMS
   ruby

@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "loupe"
+
+Loupe::CLI.start
